@@ -150,6 +150,10 @@ body{
     .instagram-wrapper{
         flex-direction: column-reverse;
         justify-content: start;
+        margin-top: 3rem;
+    }
+    .instagram-phone{
+        display: none;
     }
 }
 
@@ -159,7 +163,6 @@ body{
         justify-content: safe start;
         margin-top: 3rem;
         width: 100%;
-        gap: 1rem;
     }
     .instagram-phone{
         display: none;
