@@ -161,13 +161,18 @@ body{
         width: 100%;
         gap: 1rem;
     }
-    
-    .continue-wrapper{
-        min-width: 300px;
+    .instagram-phone{
+        display: none;
     }
-
+    .continue-wrapper{
+        width: 100%;
+    }
     .group{
         width: 100%;
+    }
+
+    .download{
+        flex-direction: column-reverse;
     }
     .download{
         flex-direction: column-reverse;
@@ -176,4 +181,5 @@ body{
         height: 4rem;
         width: 11rem;
     }
+    
 }
